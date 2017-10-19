@@ -4,6 +4,7 @@
 BODY, HTML
 =====================
 
+
 */
 body {
   font-weight: 400;
@@ -166,18 +167,31 @@ INTRO
 =====================
 
 */
+.boxhead a {
+    color: #fff;
+    text-decoration: none;
+}
+#typewriter {
+  background-color: rgba(255, 0, 0, 0.0);;
+  text-align: center;
+  color:#fff;
+  padding-top:16em;
+  text-decoration: none;
+}
+
+
 #intro {
   position: relative;
-  height: 100%;
-}
-#intro .item {
   height: 100%;
   background: url('../img/home.jpg') center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  -webkit-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;  
+}
+#intro .item {
+  height: 100%;
 }
 #intro .item .logo {
   margin-bottom: 120px;
@@ -764,6 +778,31 @@ FOOTER
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
+
+  .fb:hover {
+    background-color: #4460ae;
+}
+
+  .insta:hover {
+    background-color: #8a3ab9;
+}
+
+  .linkedin:hover {
+    background-color: #0077B5;
+}
+
+  .github:hover {
+    background-color: grey;
+}
+
+  .repl:hover {
+    background-color: orange;
+}
+
+  .mail:hover {
+    background-color: red;
+}
+
 #footer p.social a.facebook {
   background-color: #4460ae;
 }
@@ -1246,7 +1285,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #348e7b;
+  color: #fff;
   text-decoration: underline;
 }
 a:focus {
